@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <title></title>
+        <meta name="description" content=""/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="../css/custom.min.css"/>
+        <link rel="stylesheet" href="../style.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"/> 
+    </head>
+    <body class="d-flex flex-column min-vh-100">
+        <div class="bg-image">
+        </div>
+
+        <div class="container-fluid bg-dark">
+            <div class="container">
+                <div class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="../index.html">Portfolio</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#items">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="items">
+                            <ul class=" navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../subSites/GymApp.html">Gym Application</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../subSites/ArchSite.html">Architecture Site</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container bg-dark bg-opacity-75 text-white mt-5 border border-dark border-3">
+            <h1 class="ms-4 mt-1">
+                Project: Architectur Site
+            </h1>
+            <div class="row mt-4 ">
+                <div class="col-10 offset-1">
+                    <p class="fs-4">This web application was built to make calculations in the work of architect, and provides some information about building law.</p>
+                </div>
+           </div>
+        </div>
+
+        <div class="container p-0 ">
+            <div class="row bg-dark bg-opacity-75 g-0 border border-dark border-3 p-4 m-5">
+                <div  class=" col-lg-6 col-l-6 col-md-12 col-sm-12 " >
+                    <img src="../images/ArchCalculation.png" id="imgArchSite" >
+                </div>
+                <div class="col-xl-4 col-lg-5 col-md-10 col-sm-10 offset-lg-1 offset-l-1 offset-md-1 offset-sm-1 mt-md-2 mt-sm-2">
+                    <div class=" d-flex flex-column justify-content-center h-100" >
+                        <p class="text-white fs-5 justifyText">
+                            The project is an ASP.NET Core 5 web application based on MVC structure. The site uses JQuery and Bootstrap. Tests were done using Xunit. The site is in polish and has only polish building law included in the calculations.
+                        </p>
+                        <p class="text-white fs-5 mt-5"> 
+                            Application features:<br/> 
+                        </p>
+                        <ul class="text-white fs-5  ">
+                            <li>Stairs calculation</li>
+                            <li>Customizing results</li>
+                            <li>Table with polish stairs building law</li>
+                        </ul>
+                        <a class=" btn btn-dark w-100 mt-auto" href="https://github.com/MikolajBlaszczyk/Portfolio2">source code</a>
+                    </div>
+                </div>
+    
+                <div class="row m-auto mt-5"  >
+                    <div class=" col-12 border border-dark border-3 p-0 ">
+                       <table class="table table-dark table-hover table-bordered opacity-75  bg-dark bg-opacity-75 m-auto fs-5">
+                           <tr>
+                               <th>Language</th>
+                               <td class="w-50">C#, html, javascript, css</td>
+                           </tr>
+                           <tr>
+                               <th>IDE</th>
+                               <td>Visual studio</td>
+                           </tr>
+                          <tr>
+                               <th>FrameWork</th>
+                               <td>ASP.NET Core</td>
+                          </tr>
+                          <tr>
+                               <th>Nuget packages</th>
+                               <td> Xunit, Bootstrap, JQuery</td>
+                          </tr>
+                          <tr>
+                              <th>Type</th>
+                              <td>Web Application, MVC</td>
+                          </tr>
+                          <tr>
+                              <th>Data Base</th>
+                              <td>none</td>
+                          </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+        <footer class="mt-auto">
+            <div class=" bg-dark opacity-25 text-end text-black">
+                <span class="footer">Site created by Mikołaj Błaszczyk</span>
+            </div>
+        </footer>
+
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js" async defer></script>
+        <script src="../node_modules/jquery/dist/jquery.min.js" async defer></script>
+        <script src="../script.js" async defer></script>
+        
+    </body>
+</html>
