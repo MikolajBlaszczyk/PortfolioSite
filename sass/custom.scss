@@ -1,7 +1,9 @@
-
 $theme-colors:(
     "dark":#222222
 );
 
+.min-row-height{
+    min-height: 450px ;
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap";
